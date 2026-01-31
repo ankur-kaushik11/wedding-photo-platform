@@ -18,8 +18,6 @@ const ConfettiBurst = ({ trigger = false, onComplete }) => {
     const confetti = [];
     const confettiCount = 100;
     const gravity = 0.5;
-    const terminalVelocity = 5;
-    const drag = 0.075;
 
     const colors = [
       currentTheme.colors.primary,

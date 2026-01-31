@@ -1,22 +1,26 @@
-import { createContext, useState, useEffect } from 'react';
+import { createContext, useState } from 'react';
 
 export const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
-  const [user, setUser] = useState(null);
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [isAdmin, setIsAdmin] = useState(false);
-
-  useEffect(() => {
-    // Check localStorage for existing session
+  const [user, setUser] = useState(() => {
+    // Initialize from localStorage
+    const savedUser = localStorage.getItem('wedding-user');
+    return savedUser ? JSON.parse(savedUser) : null;
+  });
+  
+  const [isAuthenticated, setIsAuthenticated] = useState(() => {
+    return !!localStorage.getItem('wedding-user');
+  });
+  
+  const [isAdmin, setIsAdmin] = useState(() => {
     const savedUser = localStorage.getItem('wedding-user');
     if (savedUser) {
       const userData = JSON.parse(savedUser);
-      setUser(userData);
-      setIsAuthenticated(true);
-      setIsAdmin(userData.role === 'admin');
+      return userData.role === 'admin';
     }
-  }, []);
+    return false;
+  });
 
   const login = (userData) => {
     setUser(userData);
