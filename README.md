@@ -1,16 +1,41 @@
-# React + Vite
+# 🎊 Indian Wedding Photo Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully animated, high-energy React frontend for an Indian wedding photo platform that feels like a LIVE WEDDING CELEBRATION on screen!
 
-Currently, two official plugins are available:
+![Login Page](https://github.com/user-attachments/assets/3373a1ac-c17e-46db-9409-c9910f62ada2)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+### 🎨 Dynamic Theme Engine
+Experience 4 stunning wedding day themes that transform the entire application:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **🌼 Haldi** - Playful yellow explosion with turmeric vibes
+- **🌿 Mehndi** - Graceful green henna magic
+- **❤️ Wedding** - Royal red and gold magnificence
+- **✨ Reception** - Dark glamorous luxury
 
-## Expanding the ESLint configuration
+![Wedding Theme](https://github.com/user-attachments/assets/29800cf5-56b0-463a-906f-d2e392648d59)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 💃 Celebration Animations
+- **Dancing Silhouettes** - Animated dancers on both sides of the screen
+- **Floating Petals** - Continuous flower petals raining down
+- **Swinging Lights** - Decorative lights swaying at the top
+- **Rotating Mandalas** - Beautiful traditional patterns
+- **Confetti Bursts** - Celebratory explosions on interactions
+
+![User Dashboard](https://github.com/user-attachments/assets/359baaef-f920-4d49-9f15-a70331b3f18e)
+
+## 🚀 Quick Start
+
+```bash
+npm install
+npm run dev
+```
+
+Visit http://localhost:5173 to see the magic!
+
+## 🎉 Vibe Check
+
+**"Bhai yeh website nahi, function chal raha hai!"** 🎊
+
+Made with ❤️ for celebrating special moments
